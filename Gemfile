@@ -11,14 +11,14 @@ source 'https://rubygems.org'
 
 # deppbotテスト
 
-gem 'rack', '2.0.5'
-gem 'sanitize', '4.6.6'
-gem 'sanitize', '4.6.6'
-gem 'sass', '3.7.0'
-gem 'aws-sdk', '2.11.179'
-gem 'active_model_serializers', '0.10.7'
+gem 'rack'
+gem 'sanitize'
+gem 'sanitize'
+gem 'sass'
+gem 'aws-sdk'
+gem 'active_model_serializers'
 # gem 'rails-param', '0.10.1'
-gem 'redis-rack', '2.0.4'
+gem 'redis-rack'
 
 group :development, :test do
   gem 'sqlite3',      '1.3.13'
