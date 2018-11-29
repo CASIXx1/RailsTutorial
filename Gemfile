@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'rails'
+gem 'pry'
 
 group :development, :test do
   gem 'sqlite3',      '1.3.13'
